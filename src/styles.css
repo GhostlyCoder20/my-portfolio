@@ -12,12 +12,14 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  
 }
 
 div#main {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  
 }
 
 section {
@@ -64,6 +66,7 @@ h3 {
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
+  
 }
 
 p {
@@ -71,6 +74,7 @@ p {
   line-height: 1.5;
   margin-bottom: 0;
   font-weight: 300;
+  color: #66FCF1;
 }
 
 p.large {
@@ -86,20 +90,21 @@ hr {
 }
 
 li {
+  color: white; 
   line-height: 1.7;
 }
 
 li::marker {
-  color: #4e567e;
+  color: #45A29E;
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
-a:hover {
-  color: #4e567e;
+a:hover  {
+  color: #45A29E;
 }
 
 .container {
@@ -119,7 +124,21 @@ a:hover {
   text-align: center;
 }
 
+.box {
+  background-color: #1F2833;
+
+}
+
 img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+#portfolio {
+  background-color: #0B0C10;
+}
+
+.nav-i {
+  color: white;
+}
+
