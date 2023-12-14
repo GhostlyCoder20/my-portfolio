@@ -31,6 +31,12 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
+    title: "My Resume Site",
+    description:
+      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+    url: "https://ghostlycoder20.github.io/My-Resume/",
+  },
+  {
     title: "10 Things To Know About Azure Static Web Apps 🎉",
     description:
       "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
@@ -41,12 +47,6 @@ const projectList = [
     description:
       "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
     url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://ghostlycoder20.github.io/My-Resume/",
   },
   {
     title: "GitHub Codespaces and github.dev",
@@ -64,7 +64,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
